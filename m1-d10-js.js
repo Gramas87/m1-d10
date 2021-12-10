@@ -30,26 +30,6 @@ getArraymax
      console.log(getMinAndMaxValues) bhooooooooooo... */
 
 
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //                     dom  
 
 
@@ -58,8 +38,19 @@ let container=document.getElementById("container")
 
 let td = document.getElementsByTagName("td")
 
+
+
 for (let i = 0; i < td.length; index++) {
-    const element = td[i];
-     element.innerText("prova")
+    let element = td[i];
+     element.innerText="Hello"
     
 }
+
+
+
+let head = document.getElementsByTagName("h1")
+
+function ChangeHead(text){
+    head.innerText(text)
+}
+console.log(ChangeHead="hello")
